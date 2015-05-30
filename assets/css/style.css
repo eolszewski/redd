@@ -1,0 +1,45 @@
+body {
+	min-width:300px;
+	max-width:400px;
+	max-height:200px
+}
+
+.bs-glyphicons {
+	margin:0 0px 0px;
+	overflow:hidden
+}
+
+.bs-glyphicons-list {
+	padding-left:0;
+	list-style:none
+}
+
+.bs-glyphicons li {
+	cursor: pointer;
+	float:left;
+	width:33.33%;
+	height:70px;
+	padding:10px;
+	font-size:10px;
+	line-height:1.4;
+	text-align:center;
+	background-color:#f9f9f9;
+	border:1px solid #ddd;
+	border-top: none
+}
+
+.bs-glyphicons .glyphicon {
+	margin-top:5px;
+	font-size:24px
+}
+
+.bs-glyphicons .glyphicon-class {
+	display:block;
+	text-align:center;
+	word-wrap:break-word
+}
+
+.bs-glyphicons li:hover {
+	color:#fff;
+	background-color:#563d7c
+}
