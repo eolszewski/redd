@@ -1,49 +1,93 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>Passberry</title>
+<head>
+    <title>redd</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/app.css">
+    <script type="text/javascript" src="assets/js/jquery-2.1.1.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <div id="redd" class="full oh">
+        <div id="header" class="full">
+            <a id="logo" class="arbitrary-center"></a>
+        </div>
+        <div id="feed" class="full">
+            <div class="card post">
+                <div class="flex post-header">
+                    <div class="votes">
+                        <a class="vote up block"></a>
+                        <div class="vote-count center">42</div>
+                        <a class="vote down block"></a>
+                    </div>
+                    <div class="post-title oh ff">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lacinia maximus blandit. Sed consequat urna sed interdum lacinia. Vestibulum eget massa pharetra, lacinia diam quis, luctus nisl.
+                    </div>
+                </div>
+                <div class="post-meta flex">
+                    <div class="post-byline">
+                        By <a class="link" href="">Dakota</a> in <a class="link" href="">Fitness</a>
+                    </div>
+                    <div class="ff"></div>
+                    <div class="post-timestamp">3m</div>
+                </div>
+            </div>
+            <div class="card post self-post">
+                <div class="flex post-header">
+                    <div class="votes">
+                        <a class="vote up block"></a>
+                        <div class="vote-count center">42</div>
+                        <a class="vote down block"></a>
+                    </div>
+                    <div class="post-title oh ff">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lacinia maximus blandit.
+                    </div>
+                </div>
+                <div class="post-blurb oh hide-more">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lacinia maximus blandit. Sed consequat urna sed interdum lacinia. Vestibulum eget massa pharetra, lacinia diam quis, luctus nisl.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lacinia maximus blandit. Sed consequat urna sed interdum lacinia. Vestibulum eget massa pharetra, lacinia diam quis, luctus nisl.
+                    <a class="post-blurb-more block full link center">Show All</a>
+                </div>
+                <div class="post-meta flex">
+                    <div class="post-byline">
+                        By <a class="link" href="">Dakota</a> in <a class="link" href="">Fitness</a>
+                    </div>
+                    <div class="ff"></div>
+                    <div class="post-timestamp">3m</div>
+                </div>
+            </div>
+            <div class="card post image-post">
+                <div class="flex post-header">
+                    <div class="votes">
+                        <a class="vote up block"></a>
+                        <div class="vote-count center">42</div>
+                        <a class="vote down block"></a>
+                    </div>
+                    <div class="post-title oh ff">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lacinia maximus blandit. Sed consequat urna sed interdum lacinia.
+                    </div>
+                </div>
+                <div class="post-image">
 
-    <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+                </div>
+                <div class="post-meta flex">
+                    <div class="post-byline">
+                        By <a class="link" href="">Dakota</a> in <a class="link" href="">Fitness</a>
+                    </div>
+                    <div class="ff"></div>
+                    <div class="post-timestamp">3m</div>
+                </div>
+            </div>
+            <div class="card comment-post">
 
-    <script type="text/javascript" src="/assets/js/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="/assets/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="popup.js"></script>
-  </head>
-  <body>
-    <div id="header">
+            </div>
+            <div class="card">
+
+            </div>
+        </div>
+        <div id="console" class="full">
+
+        </div>
     </div>
-    <table class="table table-bordered" id="passTable">
-      <thead>
-        <tr>
-          <th>Website</th>
-          <th>Username</th>
-          <th>Password</th>
-        </tr>
-      </thead>
-      <tbody>
-      </tbody>
-    </table>
-
-    <div class="col-xs-12" style="padding-right: 0px; padding-left: 0px;">
-      <div class="bs-glyphicons">
-        <ul class="bs-glyphicons-list">
-          <li id="add">
-            <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
-            <span class="glyphicon-class">Add</span>
-          </li>
-          <li style="border-right: none; border-left: none;" id="edit">
-            <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
-            <span class="glyphicon-class">Edit</span>
-          </li>
-          <li id="save">
-            <span class="glyphicon glyphicon-floppy-disk" aria-hidden="true"></span>
-            <span class="glyphicon-class">Save</span>
-          </li>
-        </ul>
-      </div>
-    </div>  
-  </body>
+</body>
 </html>
 
